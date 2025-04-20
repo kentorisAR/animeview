@@ -1,72 +1,74 @@
-<!DOCTYPE html><html lang="ru">
+<!DOCTYPE html>
+<html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>AnimeView — Главная</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');body {
-  font-family: 'Orbitron', sans-serif;
-  background-color: #0f0f1a;
-  margin: 0;
-  padding: 0;
-  color: #e0e0e0;
-}
-header {
-  background: linear-gradient(90deg, #0ff, #00f);
-  padding: 20px;
-  text-align: center;
-  color: #fff;
-  box-shadow: 0 0 15px #0ff;
-}
-.container {
-  max-width: 1000px;
-  margin: 40px auto;
-  padding: 20px;
-}
-.anime-card {
-  background: #1a1a2e;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 0 20px rgba(0,255,255,0.15);
-  transition: transform 0.3s, box-shadow 0.3s;
-  margin-bottom: 30px;
-}
-.anime-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 0 30px rgba(0,255,255,0.4);
-}
-.anime-image {
-  width: 100%;
-  height: auto;
-}
-.anime-content {
-  padding: 15px;
-}
-.anime-title {
-  font-size: 20px;
-  color: #0ff;
-  margin: 0 0 10px 0;
-}
-.anime-description {
-  font-size: 14px;
-  color: #ccc;
-  margin-bottom: 10px;
-}
-.watch-button {
-  display: inline-block;
-  background-color: #00f0ff;
-  color: #000;
-  padding: 10px 15px;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: bold;
-  box-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff;
-}
-.watch-button:hover {
-  background-color: #0ff;
-  box-shadow: 0 0 30px #00f0ff;
-}
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background-color: #0f0f1a;
+      margin: 0;
+      padding: 0;
+      color: #e0e0e0;
+    }
+    header {
+      background: linear-gradient(90deg, #0ff, #00f);
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+      box-shadow: 0 0 15px #0ff;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    .anime-card {
+      background: #1a1a2e;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(0,255,255,0.15);
+      transition: transform 0.3s, box-shadow 0.3s;
+      margin-bottom: 30px;
+    }
+    .anime-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 30px rgba(0,255,255,0.4);
+    }
+    .anime-image {
+      width: 100%;
+      height: auto;
+    }
+    .anime-content {
+      padding: 15px;
+    }
+    .anime-title {
+      font-size: 20px;
+      color: #0ff;
+      margin: 0 0 10px 0;
+    }
+    .anime-description {
+      font-size: 14px;
+      color: #ccc;
+      margin-bottom: 10px;
+    }
+    .watch-button {
+      display: inline-block;
+      background-color: #00f0ff;
+      color: #000;
+      padding: 10px 15px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      box-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff;
+    }
+    .watch-button:hover {
+      background-color: #0ff;
+      box-shadow: 0 0 30px #00f0ff;
+    }
   </style>
 </head>
 <body>
@@ -75,14 +77,13 @@ header {
   </header>
   <div class="container">
     <div class="anime-card">
-      <img class="anime-image" src="https://upload.wikimedia.org/wikipedia/ru/1/18/Gotoubun_no_Hanayome_movie.jpg" alt="Пять невест. Фильм">
+      <img class="anime-image" src="quintessential_movie.jpg" alt="Пять невест. Фильм" />
       <div class="anime-content">
         <h2 class="anime-title">Пять невест. Фильм</h2>
         <p class="anime-description">Финал романтической истории про сестёр Накано и Футара. Кто станет его невестой?</p>
         <a class="watch-button" href="https://t.me/c/2587027806/3" target="_blank">Смотреть</a>
       </div>
     </div>
-    <!-- Добавляй следующие аниме-карточки ниже -->
   </div>
 </body>
 </html>
